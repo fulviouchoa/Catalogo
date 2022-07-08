@@ -1,0 +1,71 @@
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size:1.1em;
+    font-family:arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+h1{
+    text-align:center;
+    margin-top:50px;
+}
+
+img{
+    max-width: 100%;
+    display:block;
+}
+
+.header{
+    background-color:#1d1e20;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li{
+    margin-left:10px;
+}
+
+.menu li a{
+    display: block;
+    padding:10px;
+}
+
+/* CSS FLEXBOX */
+
+.flex{
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+    gap:30px;
+    
+}
+
+.flex > div{
+    flex: 1 1 200px;
+    margin:10px;
+    text-align: left;
+    
+}
+
+
+
+
+
+
+
+
